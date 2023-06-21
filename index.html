@@ -11,10 +11,10 @@
                     max-width: 720px;
                 }
             }
-            #intro {
-                background: black url("img/encabezado.jpg") center center no-repeat;
-                background-size: auto 100%;
-                min-height: 62vh;
+            header {
+                background: black url("img/encabezado.jpg") center top no-repeat;
+                background-size: 100% auto;
+                padding-top: 35vw;
             }
 
             a {
@@ -23,20 +23,16 @@
         </style>
     </head>
     <body class="text-white bg-black">
-        <div id="intro"></div>
-        <header class="container">
+        <header>
+            <div  class="container">
             <div class="row">
                 <div class="col-10 mx-auto py-5">
                     <h1 class="display-5 text-center">Gimnasia Artística Femenina</h1>
                     <h2 class="fs-5 text-center mb-5">Combinando fuerza, precisión y elegancia en la acrobacia</h2>
-
-                    <p>
-                        La gimnasia artística es un deporte de acrobacia donde las profesionales deben hacer complejas combinaciones de movimientos en diferentes aparatos. En el caso de la rama femenina de la disciplina, los aparatos son:
-                        <a href="#barra">Barras Asimétricas</a>, <a href="#viga">Viga de Equilibrio</a>, <a href="#suelo">Suelo</a> y <a href="#caballete">Salto de Caballete</a>. Este deporte requiere de una fuerza impresionante combinada
-                        con mucha flexibilidad.
-                    </p>
+                    <p>La gimnasia artística es un deporte de acrobacia donde las profesionales deben hacer complejas combinaciones de movimientos en diferentes aparatos. En el caso de la rama femenina de la disciplina, los aparatos son: <a href="#barra">Barras Asimétricas</a>, <a href="#viga">Viga de Equilibrio</a>, <a href="#suelo">Suelo</a> y <a href="#caballete">Salto de Caballete</a>. Este deporte requiere de una fuerza impresionante combinada con mucha flexibilidad.</p>
                 </div>
             </div>
+        </div>
         </header>
         <main>
             <section id="barra">
@@ -44,43 +40,34 @@
                     <div class="row g-0">
                         <div class="col-10 mx-auto">
                             <h3 class="my-5 text-center">Barras Asimétricas</h3>
-
-                            <!--aprovechemos la ilustración-->
-
-                            <div id="carouselBarras" class="carousel slide carousel-fade bg-white w-50 mx-auto mb-3" data-bs-ride="carousel">
+                            <div id="carouselBarras" class="carousel slide carousel-fade w-50 mx-auto my-5" data-bs-ride="carousel">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active" data-bs-interval="500">
-                                        <img src="img/secuencia-barra-01.svg" class="d-block w-100" alt="..." />
+                                        <img src="img/secuencia-barra-01.svg" class="d-block w-75 mx-auto" alt="..." />
                                     </div>
                                     <div class="carousel-item" data-bs-interval="500">
-                                        <img src="img/secuencia-barra-02.svg" class="d-block w-100" alt="..." />
+                                        <img src="img/secuencia-barra-02.svg" class="d-block w-75 mx-auto" alt="..." />
                                     </div>
                                     <div class="carousel-item" data-bs-interval="500">
-                                        <img src="img/secuencia-barra-03.svg" class="d-block w-100" alt="..." />
+                                        <img src="img/secuencia-barra-03.svg" class="d-block w-75 mx-auto" alt="..." />
                                     </div>
                                     <div class="carousel-item" data-bs-interval="500">
-                                        <img src="img/secuencia-barra-04.svg" class="d-block w-100" alt="..." />
+                                        <img src="img/secuencia-barra-04.svg" class="d-block w-75 mx-auto" alt="..." />
                                     </div>
                                     <div class="carousel-item" data-bs-interval="500">
-                                        <img src="img/secuencia-barra-05.svg" class="d-block w-100" alt="..." />
+                                        <img src="img/secuencia-barra-05.svg" class="d-block w-75 mx-auto" alt="..." />
                                     </div>
-                                           <div class="carousel-item" data-bs-interval="500">
-                                        <img src="img/secuencia-barra-06.svg" class="d-block w-100" alt="..." />
+                                    <div class="carousel-item" data-bs-interval="1000">
+                                        <img src="img/secuencia-barra-06.svg" class="d-block w-75 mx-auto" alt="..." />
                                     </div>
                                 </div>
                             </div>
-
-                            <!--eso-->
-
-                            <p>
-                                Las gimnastas compiten en un aparato compuesto por dos barras, una inferior y una superior. La rutina incluye transiciones entre las dos barras, giros, elementos de vuelo y un elemento final.
-                            </p>
+                            <p>Las gimnastas compiten en un aparato compuesto por dos barras, una inferior y una superior. La rutina incluye transiciones entre las dos barras, giros, elementos de vuelo y un elemento final.</p>
                         </div>
                     </div>
                 </div>
-                <div class="px-5">
-                    <object data="img/isometrica_barras asimetricas.svg" type="image/svg+xml" class="d-md-none w-100"></object>
-                    <object data="img/isometrica_barras asimetricas.svg" type="image/svg+xml" class="d-none d-md-block w-100"></object>
+                <div class="p-5">
+                    <object data="img/isometrica_barras_asimetricas.svg" type="image/svg+xml" class="w-100"></object>
                 </div>
             </section>
 
@@ -90,7 +77,7 @@
                         <div class="col-10 mx-auto">
                             <h3 class="my-5 text-center">Viga de Equilibrio</h3>
 
-                            <div id="carouselViga" class="carousel slide carousel-fade bg-white w-50 mx-auto mb-3" data-bs-ride="carousel">
+                            <div id="carouselViga" class="carousel slide carousel-fade w-75 mx-auto my-5" data-bs-ride="carousel">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active" data-bs-interval="500">
                                         <img src="img/secuencia-viga-01.svg" class="d-block w-100" alt="..." />
@@ -104,22 +91,17 @@
                                     <div class="carousel-item" data-bs-interval="500">
                                         <img src="img/secuencia-viga-04.svg" class="d-block w-100" alt="..." />
                                     </div>
-                                    <div class="carousel-item" data-bs-interval="500">
+                                    <div class="carousel-item" data-bs-interval="1000">
                                         <img src="img/secuencia-viga-05.svg" class="d-block w-100" alt="..." />
                                     </div>
                                 </div>
                             </div>
-
-                            <p>
-                                La competencia se da en una barra. La prueba se realiza a lo largo de toda la barra, sin interrupciones, cada rutina está compuesta por movimientos acrobáticos, gimnásticos y de danza. Se destacan los
-                                ingresos a la viga y, por supuesto, sus espectaculares salidas.
-                            </p>
+                            <p>La competencia se da en una barra. La prueba se realiza a lo largo de toda la barra, sin interrupciones, cada rutina está compuesta por movimientos acrobáticos, gimnásticos y de danza. Se destacan los ingresos a la viga y, por supuesto, sus espectaculares salidas.</p>
                         </div>
                     </div>
                 </div>
-                <div class="px-5">
-                    <object data="img/planimetria_viga_celular.svg" type="image/svg+xml" class="d-md-none w-100"></object>
-                    <object data="img/planimetria_viga.svg" type="image/svg+xml" class="d-none d-md-block w-100"></object>
+                <div class="p-5">
+                    <object data="img/isometrica_viga.svg" type="image/svg+xml" class="w-100"></object>
                 </div>
             </section>
 
@@ -129,7 +111,7 @@
                         <div class="col-10 mx-auto">
                             <h3 class="my-5 text-center">Suelo</h3>
 
-                            <div id="carouselSuelo" class="carousel slide carousel-fade bg-white w-50 mx-auto mb-3" data-bs-ride="carousel">
+                            <div id="carouselSuelo" class="carousel slide carousel-fade w-75 mx-auto my-5" data-bs-ride="carousel">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active" data-bs-interval="500">
                                         <img src="img/secuencia-suelo-01.svg" class="d-block w-100" alt="..." />
@@ -143,22 +125,17 @@
                                     <div class="carousel-item" data-bs-interval="500">
                                         <img src="img/secuencia-suelo-04.svg" class="d-block w-100" alt="..." />
                                     </div>
-                                    <div class="carousel-item" data-bs-interval="500">
+                                    <div class="carousel-item" data-bs-interval="1000">
                                         <img src="img/secuencia-suelo-05.svg" class="d-block w-100" alt="..." />
                                     </div>
                                 </div>
                             </div>
-
-                            <p>
-                                Esta prueba se realiza sobre una superficie de 12x12 m. Las gimnastas deben emplear acrobacia, movimientos gimnásticos y de danza para obtener una alta puntuación. La competencia dura entre 50 a 70 segundos y
-                                la gimnasta debe usar toda el área de competencia. Se destaca por la utilización de música en la que la interpretación artística también es evaluada.
-                            </p>
+                            <p>Esta prueba se realiza sobre una superficie de 12x12 m. Las gimnastas deben emplear acrobacia, movimientos gimnásticos y de danza para obtener una alta puntuación. La competencia dura entre 50 a 70 segundos y la gimnasta debe usar toda el área de competencia. Se destaca por la utilización de música en la que la interpretación artística también es evaluada.</p>
                         </div>
                     </div>
                 </div>
-                <div class="px-5">
-                    <object data="img/isometrica_suelo.svg" type="image/svg+xml" class="d-md-none w-100"></object>
-                    <object data="img/isometrica_suelo.svg" type="image/svg+xml" class="d-none d-md-block w-100"></object>
+                <div class="p-5">
+                    <object data="img/isometrica_suelo.svg" type="image/svg+xml" class="w-100"></object>
                 </div>
             </section>
 
@@ -167,8 +144,7 @@
                     <div class="row g-0">
                         <div class="col-10 mx-auto">
                             <h3 class="my-5 text-center">Salto de Caballete</h3>
-
-                            <div id="carouselSuelo" class="carousel slide carousel-fade bg-white w-50 mx-auto mb-3" data-bs-ride="carousel">
+                            <div id="carouselSuelo" class="carousel slide carousel-fade w-75 mx-auto my-5" data-bs-ride="carousel">
                                 <div class="carousel-inner">
                                     <div class="carousel-item active" data-bs-interval="500">
                                         <img src="img/secuencia-caballete-01.svg" class="d-block w-100" alt="..." />
@@ -182,23 +158,17 @@
                                     <div class="carousel-item" data-bs-interval="500">
                                         <img src="img/secuencia-caballete-04.svg" class="d-block w-100" alt="..." />
                                     </div>
-                                    <div class="carousel-item" data-bs-interval="500">
+                                    <div class="carousel-item" data-bs-interval="1000">
                                         <img src="img/secuencia-caballete-05.svg" class="d-block w-100" alt="..." />
                                     </div>
                                 </div>
                             </div>
-
-                            <p>
-                                Esta modalidad consiste en saltar sobre la mesa de salto impulsado por un trampolín. Cada gimnasta tiene derecho a realizar un salto y las que optan a la final de especialistas deberán hacer dos saltos. Las
-                                fases del ejercicio son carrera de aceleración, rechazo, apoyo de manos en el potro, fase aérea y caída a pies juntos. La dificultad del salto dependerá de la posición corporal y los giros que pueda
-                                desarrollar, siendo imprescindible para una buena ejecución recepcionar con ambos pies dentro de los márgenes permitidos.
-                            </p>
+                            <p>Esta modalidad consiste en saltar sobre la mesa de salto impulsado por un trampolín. Cada gimnasta tiene derecho a realizar un salto y las que optan a la final de especialistas deberán hacer dos saltos. Las fases del ejercicio son carrera de aceleración, rechazo, apoyo de manos en el potro, fase aérea y caída a pies juntos. La dificultad del salto dependerá de la posición corporal y los giros que pueda desarrollar, siendo imprescindible para una buena ejecución recepcionar con ambos pies dentro de los márgenes permitidos.</p>
                         </div>
                     </div>
                 </div>
-                <div class="px-5">
-                    <object data="img/planimetria_caballete_celular.svg" type="image/svg+xml" class="d-md-none w-100"></object>
-                    <object data="img/planimetria_caballete.svg" type="image/svg+xml" class="d-none d-md-block w-100"></object>
+                <div class="p-5">
+                    <object data="img/isometrica_caballete.svg" type="image/svg+xml" class="w-100"></object>
                 </div>
             </section>
 
@@ -215,10 +185,7 @@
                 <div class="col-10 mx-auto">
                     <object data="img/medallas.svg" type="image/svg+xml" class="d-md-none w-100"></object>
                     <object data="img/medallas_mobile.svg" type="image/svg+xml" class="d-none d-md-block w-100"></object>
-                    <p class="my-3">
-                        La gimnasia artística femenina es una especialidad que requiere de grandes destrezas técnicas, además de una gran preparación física y mental. Destacando que, las competidoras de los Juegos Panamericanos representan
-                        a cada uno de sus países, intentado llevar a lo más alto los símbolos nacionales.
-                    </p>
+                    <p class="my-3">La gimnasia artística femenina es una especialidad que requiere de grandes destrezas técnicas, además de una gran preparación física y mental. Destacando que, las competidoras de los Juegos Panamericanos representan a cada uno de sus países, intentado llevar a lo más alto los símbolos nacionales.</p>
                 </div>
             </section>
             <section id="cierre" class="container">
@@ -229,10 +196,7 @@
         </main>
         <aside class="container">
             <div class="col-10 mx-auto">
-                <p class="my-3">
-                    Para esta disciplina, el campeonato de este 2023 en Santiago de Chile contará con la participación de más de 250 deportistas de 24 países distintos, entre ellos Estados Unidos, Cuba, México, Panamá, Chile, Brasil,
-                    Ecuador, Jamaica y Argentina.
-                </p>
+                <p class="my-3">Para esta disciplina, el campeonato de este 2023 en Santiago de Chile contará con la participación de más de 250 deportistas de 24 países distintos, entre ellos Estados Unidos, Cuba, México, Panamá, Chile, Brasil, Ecuador, Jamaica y Argentina.</p>
             </div>
         </aside>
         <footer class="container">
