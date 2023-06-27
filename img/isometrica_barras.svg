@@ -16,19 +16,10 @@
 	#Medidas {
 		display: none;
 	}
+	#Barras_asimetricas:hover + #Medidas {
+  opacity: 1;
+	}
 </style>
-<script>
-    const rectangulo = document.getElementById('Barras_asimetricas');
-    const texto = document.getElementById('Medidas');
-
-    rectangulo.addEventListener('mouseover', () => {
-      texto.style.display = 'block';
-    });
-
-    rectangulo.addEventListener('mouseout', () => {
-      texto.style.display = 'none';
-    });
-  </script>
 <g id="Jurado">
 	<g id="LINE">
 		<line class="st0" x1="439.42" y1="475.76" x2="439.42" y2="475.75"/>
