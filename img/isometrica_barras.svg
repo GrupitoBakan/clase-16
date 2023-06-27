@@ -4,30 +4,17 @@
 	 viewBox="0 0 595.28 431.9" style="enable-background:new 0 0 595.28 431.9;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:none;stroke:#FFFFFF;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st1{fill:#00B4D8;}
-	.st2{fill:#00B4D8;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#00B4D8;}
-	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#48CAE4;}
-	.st5{fill:#FF0000;}
-	.st6{fill-rule:evenodd;clip-rule:evenodd;fill:#FFF8E9;}
-	.st7{fill-rule:evenodd;clip-rule:evenodd;fill:#FF0000;}
+	.st1{fill:#0096C7;}
+	.st2{fill:#0096C7;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st3{fill-rule:evenodd;clip-rule:evenodd;fill:#0096C7;}
+	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#00B4D8;}
+	.st5{fill:#CE6EE5;}
+	.st6{fill-rule:evenodd;clip-rule:evenodd;fill:#FFF0DC;}
+	.st7{fill-rule:evenodd;clip-rule:evenodd;fill:#CE6EE5;}
 	.st8{fill:none;stroke:#FFFFFF;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st9{font-family:'MyriadPro-Regular';}
-	.st10{font-size:8px;}
-	
-#Barras_asimetricas {
-  position: relative;
-}
-
-#Medidas {
-  visibility: hidden;
-  opacity: 0;
-}
-
-#Barras_asimetricas:hover #Medidas {
-  visibility: visible;
-  opacity: 1;
-}
+	.st9{stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
+	.st10{font-family:'MyriadPro-Regular';}
+	.st11{font-size:8px;}
 </style>
 <g id="Jurado">
 	<g id="LINE">
@@ -70,7 +57,7 @@
 			/>
 	</g>
 	<g id="HATCH_00000103247318770039124330000008244265868111561635_">
-		<path class="st3" d="M115.5,184.31v18.86l16.33-9.43L115.5,184.31 M155.17,161.41v18.86l16.33-9.43L155.17,161.41 M194.83,138.51
+		<path class="st4" d="M115.5,184.31v18.86l16.33-9.43L115.5,184.31 M155.17,161.41v18.86l16.33-9.43L155.17,161.41 M194.83,138.51
 			v18.86l16.33-9.43L194.83,138.51 M250.83,125.04l-16.33-9.43v18.86L250.83,125.04z"/>
 	</g>
 	<g id="HATCH_00000158731590895008451880000001934776100369961658_">
@@ -84,7 +71,7 @@
 			l18.67,10.78l23.33-13.47L460.83,219.34z"/>
 	</g>
 	<g id="HATCH_00000025404040350423773320000009799783787255257992_">
-		<polygon class="st3" points="456.17,243.58 437.5,232.81 437.5,251.67 456.17,262.44 		"/>
+		<polygon class="st4" points="456.17,243.58 437.5,232.81 437.5,251.67 456.17,262.44 		"/>
 	</g>
 	<g id="HATCH_00000144296221687723032350000015252786520887436940_">
 		<path class="st3" d="M358.58,311.92c0.16-0.19,0.32-0.39,0.37-0.61c0.06-2.2,0.11-4.39,0.17-6.59c-0.04-0.04-0.08-0.08-0.12-0.11
@@ -1195,45 +1182,45 @@
 </g>
 <g id="Medidas">
 	<g id="LINE_00000175283970062035900520000002549670792554470051_">
-		<line x1="340.77" y1="245.53" x2="382.66" y2="220.96"/>
+		<line class="st9" x1="340.77" y1="245.53" x2="382.66" y2="220.96"/>
 	</g>
 	<g id="LINE_00000052081578964166682350000006115942950245195416_">
-		<line x1="333.77" y1="241.49" x2="347.77" y2="249.57"/>
+		<line class="st9" x1="333.77" y1="241.49" x2="347.77" y2="249.57"/>
 	</g>
 	<g id="LINE_00000145766425317430734410000018415526018603577020_">
-		<line x1="375.65" y1="216.91" x2="389.74" y2="225.05"/>
+		<line class="st9" x1="375.65" y1="216.91" x2="389.74" y2="225.05"/>
 	</g>
 	<g id="LINE_00000058584634411670697260000007022259004825840575_">
-		<line x1="360.58" y1="208.1" x2="360.58" y2="139.33"/>
+		<line class="st9" x1="360.58" y1="208.1" x2="360.58" y2="139.33"/>
 	</g>
 	<g id="LINE_00000036245600041743630780000004187861470279260834_">
-		<line x1="353.58" y1="212.07" x2="367.58" y2="203.99"/>
+		<line class="st9" x1="353.58" y1="212.07" x2="367.58" y2="203.99"/>
 	</g>
 	<g id="LINE_00000024688608059979740440000002128465987861679771_">
-		<line x1="353.58" y1="143.37" x2="367.58" y2="135.29"/>
+		<line class="st9" x1="353.58" y1="143.37" x2="367.58" y2="135.29"/>
 	</g>
 	<g id="LINE_00000047030259738481291330000013530222808120538539_">
-		<line x1="318.58" y1="232.34" x2="318.58" y2="185.13"/>
+		<line class="st9" x1="318.58" y1="232.34" x2="318.58" y2="185.13"/>
 	</g>
 	<g id="LINE_00000154387890574928415630000017543197764233006001_">
-		<line x1="311.58" y1="236.32" x2="325.58" y2="228.24"/>
+		<line class="st9" x1="311.58" y1="236.32" x2="325.58" y2="228.24"/>
 	</g>
 	<g id="LINE_00000109000356394455288860000012492522322392456617_">
-		<line x1="311.58" y1="189.17" x2="325.58" y2="181.09"/>
+		<line class="st9" x1="311.58" y1="189.17" x2="325.58" y2="181.09"/>
 	</g>
 	<g id="LINE_00000103988024105591316240000008239645881515102105_">
-		<line x1="131.83" y1="321.72" x2="145.83" y2="313.64"/>
+		<line class="st9" x1="131.83" y1="321.72" x2="145.83" y2="313.64"/>
 	</g>
 	<g id="LINE_00000122684565039965416880000015651056838143390117_">
-		<line x1="85.17" y1="294.78" x2="99.17" y2="286.69"/>
+		<line class="st9" x1="85.17" y1="294.78" x2="99.17" y2="286.69"/>
 	</g>
 	<g id="LINE_00000147931967693082075840000015398257275095158436_">
-		<line x1="92.17" y1="290.73" x2="138.83" y2="317.68"/>
+		<line class="st9" x1="92.17" y1="290.73" x2="138.83" y2="317.68"/>
 	</g>
-	<text transform="matrix(0.8525 -0.5227 0.5227 0.8525 358.4054 244.9769)" class="st9 st10">1,80 m</text>
-	<text transform="matrix(-8.790000e-03 -1 1 -8.790000e-03 326.5841 217.3789)" class="st9 st10">1,75 m</text>
-	<text transform="matrix(-8.790000e-03 -1 1 -8.790000e-03 368.7913 181.625)" class="st9 st10">2, 55 m</text>
-	<text transform="matrix(0.8726 0.4885 -0.4885 0.8726 98.1159 304.8742)" class="st9 st10">2,00 m</text>
+	<text transform="matrix(0.8525 -0.5227 0.5227 0.8525 358.4054 244.9769)" class="st10 st11">1,80 m</text>
+	<text transform="matrix(-8.790000e-03 -1 1 -8.790000e-03 326.5841 217.3789)" class="st10 st11">1,75 m</text>
+	<text transform="matrix(-8.790000e-03 -1 1 -8.790000e-03 368.7913 181.625)" class="st10 st11">2, 55 m</text>
+	<text transform="matrix(0.8726 0.4885 -0.4885 0.8726 98.1159 304.8742)" class="st10 st11">2,00 m</text>
 </g>
 <g id="Persona">
 	
