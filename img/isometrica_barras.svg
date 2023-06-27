@@ -15,8 +15,16 @@
 	.st9{fill-rule:evenodd;clip-rule:evenodd;fill:#FF0000;}
 	.st10{fill:none;stroke:#000000;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 	.st11{stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
-	.st12{font-family:'MyriadPro-Regular';}
+	.st12{font-family:'Arial';}
 	.st13{font-size:8px;}
+	#Medidas {
+  opacity: 0;
+}
+
+svg:hover #Medidas{
+  opacity: 1;
+transition:all ease 1s;
+	}
 </style>
 <g id="Escenario">
 	<g id="HATCH_00000016796189669973599010000017037812851514797454_" class="st0">
