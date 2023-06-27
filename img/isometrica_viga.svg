@@ -16,6 +16,14 @@
 	.st10{font-family:'MyriadPro-Regular';}
 	.st11{font-size:6px;}
 	.st12{font-size:8px;}
+		#Medidas {
+  opacity: 0;
+}
+
+svg:hover #Medidas{
+  opacity: 1;
+transition:all ease 1s;
+	}
 </style>
 <g id="Jurado">
 	<g id="HATCH" class="st0">
