@@ -8,8 +8,16 @@
 	.st2{fill-rule:evenodd;clip-rule:evenodd;fill:#0096C7;}
 	.st3{fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 	.st4{fill-rule:evenodd;clip-rule:evenodd;fill:#FFF0DC;}
-	.st5{font-family:'MyriadPro-Regular';}
+	.st5{font-family:'Arial';}
 	.st6{font-size:8px;}
+	#Medidas {
+  opacity: 0;
+}
+
+svg:hover #Medidas{
+  opacity: 1;
+transition:all ease 1s;
+	}
 </style>
 <g id="Jurado">
 	<g id="HATCH" class="st0">
