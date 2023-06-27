@@ -14,6 +14,11 @@
 	.st8{fill:none;stroke:#FFFFFF;stroke-width:0.2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
 	.st9{font-family:'MyriadPro-Regular';}
 	.st10{font-size:8px;}
+	
+#Medidas:hover {
+  visibility: visible;
+  opacity: 1;
+}
 </style>
 <g id="Jurado">
 	<g id="LINE">
